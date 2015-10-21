@@ -1,11 +1,11 @@
 # Site settings
-#title: Francis Blog
-#SEOTitle: 李超源的博客 | Francis Blog
-header-img: img/home-bg.jpg
-email: 27979831@qq.com
-description: "关于Social、广告、营销 | 这里是 李超源 的个人博客，与你一起发现更大的世界。"
-keyword: "李超源, 李超源博客, Francis Blog, 博客, 个人网站, Social, 广告, 设计, 文案, 品牌, 营销, 自媒体"
-url: "http://27979831.github.io/"
+title:Francis Blog
+SEOTitle:李超源的博客 | Francis Blog
+header-img:img/home-bg.jpg
+email:27979831@qq.com
+description:"关于Social、广告、营销 | 这里是 李超源 的个人博客，与你一起发现更大的世界。"
+keyword:"李超源, 李超源博客, Francis Blog, 博客, 个人网站, Social, 广告, 设计, 文案, 品牌, 营销, 自媒体"
+url:"http://27979831.github.io/"
 baseurl: ""
 
 
