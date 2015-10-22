@@ -1,22 +1,22 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: Lee Blog
+SEOTitle: 李超源的博客 | Lee Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
-url: "http://huangxuan.me"
+email: 27979831@qq.com
+description: "关于Social、广告、营销、文案、设计 | 李超源，Copywriter，PM，Designer | 这里是 @英雄终归草莽 的个人博客，与你一起发现更大的世界。"
+keyword: "李超源, 27979831, Francis, 英雄终归草莽, 李超源的博客, Lee Blog, 博客, 个人网站, 互联网, 文案, 设计, 产品, 品牌, 营销, 广告, TVC"
+url: "http://27979831.github.io"
 baseurl: ""
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+weibo_username:     94cm
+zhihu_username:     ying-xiong-zhong-gui-cao-mang
+github_username:    27979831
+#twitter_username:  英雄终归草莽
+facebook_username:  27979831
 
 
 
@@ -58,7 +58,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
+sidebar-about-description: "世界那么大，多玩玩看看。"
 sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
 
 
@@ -70,18 +70,18 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Friends
-friends: [
-    {
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
-    }
-]
+#friends: [
+#    {
+#        title: "天镶的博客",
+#        href: "http://lingyu.wang/"
+#    },{
+#        title: "Luke的自留地",
+#        href: "http://hmqk1995.github.io"
+#    },{
+#        title: "SmdCn's Blog",
+#        href: "http://blog.smdcn.net"
+#    },{
+#        title: "解旻的博客",
+#        href: "http://xieminis.me/"
+#    }
+#]

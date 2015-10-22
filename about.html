@@ -1,11 +1,12 @@
 ---
 layout: page
 title: "About"
-description: "Hey, this is Hux."
+description: "Hey, this is Francis."
 header-img: "img/about-bg.jpg"
 ---
 
 <!-- Language Selector -->
+
 <select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
     <option value="1"> 英语 English </option>
@@ -105,6 +106,7 @@ header-img: "img/about-bg.jpg"
 
 {% if site.duoshuo_username %}
 <!-- 多说评论框 start -->
+<!--
     <div class="comment">
         <div class="ds-thread"
         data-thread-key="{{site.duoshuo_username}}/about"
@@ -114,9 +116,11 @@ header-img: "img/about-bg.jpg"
 <!-- 多说评论框 end -->
 
 <!-- Duoshuo hacking -->
+<!--
 <input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
 
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<!--
 <script type="text/javascript">
     // dynamic User hacking by Hux
     var _user = document.getElementById('dsUser').value;
