@@ -1,19 +1,17 @@
 ---
-
 layout:     post
 title:      2015.10 A New Start
 subtitle:   Something goes wrong & something goes better
 date:       2015-10-23
 author:     "Lee"
-header-img: "http://7xnqez.com1.z0.glb.clouddn.com/A-New-Star-bg.jpg"
+header-img: "7xnqez.com1.z0.glb.clouddn.com/A-New-Star-bg.jpg"
 tags:
     - 随笔
-
 ---
 
 一直以来都想有一个属于自己的blog，算是一种极客情怀吧，不想用那些模板化的产品，可是自己的技术也就那样，加上种种原因没能实现。这次 狠下心经过2天努力，也算是有所成就，满足了一下自己的虚荣心。
 
-###感谢 
+####感谢 
 
 * @davidtmiller 提供的开源代码
 * @Huxpro 对项目的二次开发和维护
