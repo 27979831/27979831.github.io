@@ -4,7 +4,7 @@ title:      2015.10 A New Start
 subtitle:   Something goes wrong & something goes better
 date:       2015-10-23
 author:     "Lee"
-header-img: "7xnqez.com1.z0.glb.clouddn.com/A-New-Star-bg.jpg"
+header-img: "img/A-New-Start-bg.jpg"
 tags:
     - 随笔
 ---
