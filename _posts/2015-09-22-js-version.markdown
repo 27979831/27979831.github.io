@@ -4,7 +4,7 @@ title:      "ES5, ES6, ES2016, ES.Next: JavaScript 的版本是怎么回事？�
 subtitle:   "ES5, ES6, ES2016, ES.Next: What's going on with JavaScript versioning?"
 date:       2015-09-22
 author:     "Hux"
-header-img: "img/post-bg-js-version.jpg"
+header-img: "http://7xnqez.com1.z0.glb.clouddn.com/A-New-Star-bg.jpg"
 tags:
     - 测试测试测试测试测试测试测试
     - JavaScript
