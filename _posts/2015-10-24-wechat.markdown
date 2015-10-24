@@ -4,7 +4,7 @@ title:      "7条潜规则教你如何做个人见人爱的公众号"
 subtitle:   "值得身怀一技之长，想用微信挣点零花钱的自媒体狗看看。"
 date:       2015-10-24 12:00:00
 author:     "Lee"
-header-img: “img/20151024wechat.jpg"
+header-img: img/20151024wechat.jpg
 tags:
     - 微信
     - Social
