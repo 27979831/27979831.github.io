@@ -1,13 +1,15 @@
 ---
 layout:     post
-title:      你为什么发朋友圈：让用户疯狂转发的5大动机
-subtitle:   随着社交网络的兴起，众多品牌为了让人们转发其信息已经开始丧心病狂了。
+title:      "你为什么发朋友圈：让用户疯狂转发的5大动机"
+subtitle:   "随着社交网络的兴起，众多品牌为了让人们转发其信息已经开始丧心病狂了。"
 date:       2015-10-24
-author:     “Lee”
+author:     "Lee"
 header-img: "img/pengyouquan.jpg"
-tags:[朋友圈,微信,social]
+tags:
+    - 朋友圈
+    - Social
+    - 微信
 ---
-
 
 随着社交网络的兴起，众多品牌为了让人们转发其信息已经开始丧心病狂了。
 
