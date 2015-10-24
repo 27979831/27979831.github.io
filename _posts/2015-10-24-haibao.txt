@@ -3,7 +3,7 @@ layout:     post
 title:      "日本海报到底厉害在哪里？"
 date:       2015-10-24 
 author:     "Lee"
-header-img: img/20151024wechat.jpg
+header-img: img/20151024-haibao.jpg
 tags:
     - 设计
     - 海报
