@@ -7,6 +7,7 @@ header-img: "img/20151027meishi.jpg"
 tags:
     - 文案
     - 餐饮
+    - 海报
 ---
 
 ### 一、围绕「家」讲情怀
