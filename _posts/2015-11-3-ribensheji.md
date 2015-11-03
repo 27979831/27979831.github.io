@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      如何理解日本禅和日本设计？
-subtitle:   "关于日本禅和设计，我们都想错了。”
+subtitle:   "关于日本禅和设计，我们都想错了。"
 date:       2015-11-3
 author:     "Lee"
 header-img: "img/chan.jpg"
