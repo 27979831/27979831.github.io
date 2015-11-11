@@ -3,7 +3,7 @@ layout:     post
 title:      天与空独家培训资料：《创意的修辞法》
 date:       2015-11-11
 author:     "Lee"
-header-img: "img/chan.jpg"
+header-img: "img/copywriter.jpg"
 tags:
     - 文案
     - 方法论
