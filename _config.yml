@@ -72,8 +72,8 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: “高山家”,
-     href: "http://gaoshanjia.com”
+        title: "高山家",
+     href: "http://gaoshanjia.com"
   }
 # ,{
 #        title: "Luke的自留地",
