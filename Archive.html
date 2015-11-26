@@ -5,8 +5,21 @@ description: "Hey, this is Francis."
 header-img: "img/about-bg.jpg"
 ---
 
-<!-- Page Header -->
-<!--
+<!-- Page Header --><!-- Main Content -->
+
+<style type="text/css">
+    header.intro-header{
+        height: 500px;
+        overflow: hidden;
+    }
+    header iframe{
+        width: 100%;
+        height: 100%;
+        border: 0;
+
+
+<header class="intro-header" >
+    <iframe src="{{page.iframe}}"/>
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
@@ -19,10 +32,11 @@ header-img: "img/about-bg.jpg"
         </div>
     </div>
 </header>
--->
+ </iframe>
+</header>
 
 
-<!-- Main Content -->
+
 
 <div class="container">
 	<div class="row">
