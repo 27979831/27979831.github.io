@@ -74,11 +74,10 @@ friends: [
     {
         title: "高山家",
      href: "http://gaoshanjia.com"
-  }
-# ,{
-#        title: "Luke的自留地",
-#        href: "http://hmqk1995.github.io"
-#    },{
+  },{
+        title: "枳",
+        href: "http://fiona23.github.io/"
+    }#,{
 #        title: "SmdCn's Blog",
 #        href: "http://blog.smdcn.net"
 #    },{
