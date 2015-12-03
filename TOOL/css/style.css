@@ -1,4 +1,10 @@
-
+/*
+Site Name:è®¾è®¡å¸ˆç½‘å€å¯¼èˆª
+Description:ç½‘ç«™ä»£ç ã€æ•°æ®ã€è®¾è®¡å‡ä¸ºä¼˜è®¾åŽŸåˆ›ï¼Œè¯·ä¸è¦å¤åˆ¶æŠ„è¢­ï¼Œè¿è€…å°†è¿½ç©¶å…¶æ³•å¾‹è´£ä»»ï¼Œç‰¹æ­¤å£°æ˜Žï¼
+Version:3.0
+Author:@coldera
+*/
+/*reset*/
 body {
 	padding:0;
 	margin:0;
@@ -151,7 +157,7 @@ header, nav, footer, aside, section {
 }
 /*ä¸»ä½“å†…å®¹*/
 #content {
-	background-color:#FFFFFF;
+	background-color:#fff;
 }
 .inside{
 	background-color:#f1f7fa!important;
@@ -524,10 +530,10 @@ header, nav, footer, aside, section {
     text-indent:-99999px;
     color:#686868;
     cursor:pointer;   
-    background:#ffffff url(top.png) no-repeat center bottom;
+    background:#fff url(top.png) no-repeat center bottom;
 }
 #shortcut:hover h3 {
-    background-color:#ffffff;
+    background-color:#fff;
 }
 #shortcut nav {
     position:absolute;
@@ -538,7 +544,7 @@ header, nav, footer, aside, section {
     padding:6px 10px;
     border:1px solid #dbdbdb;
     overflow:hidden;
-    background-color:#ffffff;
+    background-color:#fff;
     white-space:normal;
     -webkit-box-shadow:1px 1px 1px #e6e6e6,-1px -1px 1px #e6e6e6;
     -moz-box-shadow:1px 1px 1px #e6e6e6,-1px -1px 1px #e6e6e6;
@@ -584,7 +590,7 @@ header, nav, footer, aside, section {
 #website-map {
 	margin:40px 0 34px;
 	padding:12px;
-	background-color:#ffffff;
+	background-color:#fff;
 }
 #website-map section {
 	position:relative;
@@ -625,7 +631,7 @@ header, nav, footer, aside, section {
 	line-height:24px;
 	font-weight:700;
 	font-size:1.2em;
-	background-color:#ffffff;
+	background-color:#fff;
 	background-position:0 -1145px;
 	color:#585858;
 }
@@ -845,7 +851,7 @@ header, nav, footer, aside, section {
 	font-size:0;
 	line-height:999;
 	overflow:hidden;
-	background:#ffffff url(top.png) no-repeat center top;
+	background:#fff url(top.png) no-repeat center top;
     -webkit-transition:opacity 1s;
     -moz-transition:opacity 1s;
     -o-transition:opacity 1s;
