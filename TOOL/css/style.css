@@ -524,10 +524,10 @@ header, nav, footer, aside, section {
     text-indent:-99999px;
     color:#686868;
     cursor:pointer;   
-    background:#fff url(top.png) no-repeat center bottom;
+    background:#ffffff url(top.png) no-repeat center bottom;
 }
 #shortcut:hover h3 {
-    background-color:#fff;
+    background-color:#ffffff;
 }
 #shortcut nav {
     position:absolute;
@@ -538,7 +538,7 @@ header, nav, footer, aside, section {
     padding:6px 10px;
     border:1px solid #dbdbdb;
     overflow:hidden;
-    background-color:#fff;
+    background-color:#ffffff;
     white-space:normal;
     -webkit-box-shadow:1px 1px 1px #e6e6e6,-1px -1px 1px #e6e6e6;
     -moz-box-shadow:1px 1px 1px #e6e6e6,-1px -1px 1px #e6e6e6;
@@ -584,7 +584,7 @@ header, nav, footer, aside, section {
 #website-map {
 	margin:40px 0 34px;
 	padding:12px;
-	background-color:#fff;
+	background-color:#ffffff;
 }
 #website-map section {
 	position:relative;
@@ -625,7 +625,7 @@ header, nav, footer, aside, section {
 	line-height:24px;
 	font-weight:700;
 	font-size:1.2em;
-	background-color:#fff;
+	background-color:#ffffff;
 	background-position:0 -1145px;
 	color:#585858;
 }
@@ -845,7 +845,7 @@ header, nav, footer, aside, section {
 	font-size:0;
 	line-height:999;
 	overflow:hidden;
-	background:#fff url(top.png) no-repeat center top;
+	background:#ffffff url(top.png) no-repeat center top;
     -webkit-transition:opacity 1s;
     -moz-transition:opacity 1s;
     -o-transition:opacity 1s;
