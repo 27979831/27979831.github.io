@@ -1,10 +1,4 @@
-/*
-Site Name:è®¾è®¡å¸ˆç½‘å€å¯¼èˆª
-Description:ç½‘ç«™ä»£ç ã€æ•°æ®ã€è®¾è®¡å‡ä¸ºä¼˜è®¾åŽŸåˆ›ï¼Œè¯·ä¸è¦å¤åˆ¶æŠ„è¢­ï¼Œè¿è€…å°†è¿½ç©¶å…¶æ³•å¾‹è´£ä»»ï¼Œç‰¹æ­¤å£°æ˜Žï¼
-Version:3.0
-Author:@coldera
-*/
-/*reset*/
+
 body {
 	padding:0;
 	margin:0;
@@ -157,7 +151,7 @@ header, nav, footer, aside, section {
 }
 /*ä¸»ä½“å†…å®¹*/
 #content {
-	background-color:#fff;
+	background-color:#FFFFFF;
 }
 .inside{
 	background-color:#f1f7fa!important;
