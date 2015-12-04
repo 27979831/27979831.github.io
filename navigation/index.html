@@ -938,14 +938,9 @@ header-img: "img/navigation-bg.jpg"
 <!-- 多说评论框 start -->
 <div class="comment">
     <div class="ds-thread"
-    {% if site.duoshuo_username == "francisblog" %}
-        data-thread-id="1187623191091085319"
-    {% else %}
-        data-thread-key="{{site.duoshuo_username}}/about"
-    {% endif %}
-
+    data-thread-id="{{site.duoshuo_username}}/navigation"
     data-title="{{page.title}}"
-    data-url="{{site.url}}/about/"></div>
+    data-url="{{site.url}}{{site.baseurl}}{{page.url}}"></div>
 </div>
 <!-- 多说评论框 end -->
 
