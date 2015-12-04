@@ -1,9 +1,11 @@
 
+*{box-sizing:content-box;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;}
 body {
 	padding:0;
 	margin:0;
 	color:#fff;
 	background-color:#fff;
+	line-height:1;
 	font-size:12px;
 	font-family: font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
 }
@@ -182,7 +184,7 @@ header, nav, footer, aside, section {
 	position:absolute;
 	top:50%;
 	margin-top:-14px;
-	padding-left:40px;
+	padding-left:30px;
 	letter-spacing:2px;
 }
 #catalog header h2 a{
@@ -191,9 +193,9 @@ header, nav, footer, aside, section {
 #catalog header h2 a:hover{
 	color:#ee521c;	
 	}
-#catalog header h2:first-letter {
+/* #catalog header h2:first-letter {
 	font-size:1.5em;
-}
+} */
 #catalog .icon-download {
 	background-position:10px -344px;
 }
