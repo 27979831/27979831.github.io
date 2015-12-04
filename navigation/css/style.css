@@ -1,6 +1,7 @@
 .comment{
 	max-width: 800px;
-	margin: auto;
+	margin: 0 auto;
+	padding: 0 1.5em 0.5em;
 }
 ul{box-sizing:content-box;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;}
 body {
