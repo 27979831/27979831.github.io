@@ -11,7 +11,7 @@ baseurl: ""
 
 
 # SNS settings
-RSS: false
+RSS: true
 weibo_username:     94cm
 zhihu_username:     ying-xiong-zhong-gui-cao-mang
 #github_username:    27979831
