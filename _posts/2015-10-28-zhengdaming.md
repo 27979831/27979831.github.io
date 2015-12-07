@@ -62,12 +62,13 @@ tags:
 
 问：大总，能否结合之外创意的作品，简单谈一谈这个理论在实践中的创意魅力？
 
-[视频：德邦物流-喇叭哥](http://v.qq.com/iframe/player.html?vid=u0148n08200&width=500&height=375&auto=0)
-
+<embed src="http://static.video.qq.com/TPout.swf?vid=o01650f5ql3&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+德邦物流-喇叭哥
 
 答：这个是2009年，我和团队的第一次实践，12家电视台报道，德邦物流，当年销售翻两番。
 
-[视频：美图手机-第一届自拍世锦赛](http://v.qq.com/iframe/player.html?vid=b0160sp0ftu&width=500&height=375&auto=0)
+<embed src="http://static.video.qq.com/TPout.swf?vid=b0160sp0ftu&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+美图手机-第一届自拍世锦赛
 
 
 这个是2014年，美图手机，以微博为主阵地的传播。1.7亿阅读数，微博头条，压过“王全安嫖娼”、“李娜退役”等，那一周的娱乐新闻，体育新闻。并且东方卫视等大量传统媒体报道。
@@ -89,7 +90,8 @@ tags:
 </p>
 <br>
 
-[视频：奥康非凡体-孟非篇](http://v.qq.com/iframe/player.html?vid=s010338xoyr&width=500&height=375&auto=0)
+<embed src="http://static.video.qq.com/TPout.swf?vid=s010338xoyr&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+视频：奥康非凡体-孟非篇
 
 流行美，3小时就形成娱乐新闻，爱奇艺新闻视频都剪好上线了。
 
