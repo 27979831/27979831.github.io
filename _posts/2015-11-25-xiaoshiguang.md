@@ -21,6 +21,7 @@ tags:
 
 
 <embed src="http://player.youku.com/player.php/sid/XODg5NjA5NjA0/v.swf" allowFullScreen="true" quality="high" width="640" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+<embed src="http://pl.youku.com/playlist/m3u8?vid=219465505&type=mp4&ts=1449561394&keyframe=0&ep=dCaQE0yLV80J4SLZjj8bb32xIXQPXPwL%2FxuDhNdiBdQsTOC9&sid=6449561394166128ace30&token=8482&ctype=12&ev=1&oip=3702845116" allowFullScreen="true" quality="high" width="640" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
 [《小时光面馆》 共5话 合集](http://v.youku.com/v_show/id_XODc3ODYyMDIw.html?sharefrom=iphone&from=singlemessage&isappinstalled=1&x)
 
 
