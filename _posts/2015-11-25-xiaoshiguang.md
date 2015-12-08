@@ -21,6 +21,7 @@ tags:
 
 
 <embed src="http://player.youku.com/player.php/sid/XODg5NjA5NjA0/v.swf" allowFullScreen="true" quality="high" width="640" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+<video id="tenvideo_video_player_0" width="100%" height="100%" x-webkit-airplay="true" webkit-playsinline="true" preload="none" src="http://61.190.114.12/vhot2.qqvideo.tc.qq.com/g0175h6sksu.mp4?vkey=28BF989389403FAD0632C3D7B0F87E2BF7762CE635CAE66C62DE8DDEAD609690EF10DC27DF5E9A0D3AEBC03FE985508514CF77FF887A8ACE3E4E3282A309A1AF2B8F96DA8E984B33316DD269BDF060009AF4A62705144518&amp;br=60&amp;platform=2&amp;fmt=auto&amp;level=40&amp;sdtfrom=v3010"></video>
 [《小时光面馆》 共5话 合集](http://player.youku.com/player.php/sid/XODg5NjA5NjA0/v.swf)
 
 
