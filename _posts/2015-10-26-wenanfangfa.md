@@ -73,6 +73,7 @@ tags:
 
 跟国泰金融50周年品牌TVC（台湾）：**我们关心人生中的每一个你，以及每一个你所关心的**
 
+<embed src="http://static.video.qq.com/TPout.swf?vid=i0161w43pj5&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
 [视频：國泰金融集團50週年形象廣告_鞦韆篇](http://v.qq.com/page/i/j/5/i0161w43pj5.html?start=2)
  
 
