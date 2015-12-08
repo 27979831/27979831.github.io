@@ -20,7 +20,7 @@ tags:
 不知道大家对“一碗面”的情结是怎样的？怀念，感慨，甜蜜亦或是憧憬...？这一次，统一将情感融入一碗面中，将料理与人生结合。再平凡不过的食物因为每个人独一无二的情绪和生活而变得饱满鲜活，从而创作出了《小时光面馆》的五部微电影。
 
 
-<embed src="http://player.youku.com/player.php/sid/XODg5NjA5NjA0/v.swf" allowFullScreen="true" quality="high" width="640" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+<embed src="http://pl.youku.com/playlist/m3u8?vid=222402401&type=hd2&ctype=12&keyframe=1&ep=eiaQE0yJUc8D4iDXgT8bZyThdiNdXPwI9BuFg9ZiAdQtTO64&sid=8449547137389120832db&token=9467&ev=1&oip=3702845116" allowFullScreen="true" quality="high" width="640" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
 [《小时光面馆》 共5话 合集](http://player.youku.com/player.php/sid/XODg5NjA5NjA0/v.swf)
 
 
