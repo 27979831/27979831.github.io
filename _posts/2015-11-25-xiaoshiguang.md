@@ -21,7 +21,6 @@ tags:
 
 
 <embed src="http://player.youku.com/player.php/sid/XODg5NjA5NjA0/v.swf" allowFullScreen="true" quality="high" width="640" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
-<embed wmode="direct" flashvars="vid=g0175h6sksu&amp;tpid=0&amp;showend=1&amp;showcfg=1&amp;searchbar=1&amp;pic=http://shp.qpic.cn/qqvideo_ori/0/g0175h6sksu_496_280/0&amp;skin=http://imgcache.qq.com/minivideo_v1/vd/res/skins/TencentPlayerMiniSkin.swf&amp;shownext=1&amp;list=2&amp;autoplay=0" src="https://imgcache.qq.com/tencentvideo_v1/player/TPout.swf?max_age=86400&amp;v=20140714" quality="high" name="tenvideo_flash_player_1449559263259" id="tenvideo_flash_player_1449559263259" bgcolor="#000000" width="670px" height="502px" align="middle" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" pluginspage="http://get.adobe.com/cn/flashplayer/">
 [《小时光面馆》 共5话 合集](http://player.youku.com/player.php/sid/XODg5NjA5NjA0/v.swf)
 
 
