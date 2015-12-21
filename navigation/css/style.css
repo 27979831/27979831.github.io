@@ -13,7 +13,7 @@ body {
 	font-size:12px;
 	font-family: font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
 }
-ol, ul, li, h1, h2, h3, h4, form, input, p, a {
+ol, ul, li, h1, h2, h3, h4, form, input, a {
 	padding:0;
 	margin:0;
 	font-size:1em;
