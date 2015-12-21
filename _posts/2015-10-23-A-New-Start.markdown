@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      2015.10 A New Start
-subtitle:   Something goes wrong & something goes better
 date:       2015-10-23
 author:     "Lee"
 header-img: "img/A-New-Start-bg.jpg"
