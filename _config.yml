@@ -21,13 +21,13 @@ facebook_username:  100010704396773
 
 
 # Build settings
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
+gems: [jekyll-paginate]
 
 # Markdown settings
 # replace redcarpet to kramdown,
