@@ -5,9 +5,43 @@
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
 
+### "Page Build Warning" email
+
+These days, some of you must receive a "Page Build Warning" email from github after you commit happily. **Don't Worried!** It just that github changes its build environment.
+
+In this mail, github told us:
+
+> You are attempting to use the 'pygments' highlighter, which is currently unsupported on GitHub Pages. Your site will use 'rouge' for highlighting instead. To suppress this warning, change the 'highlighter' value to 'rouge' in your '_config.yml'.
+
+So, just edit `_config.yml`, find `highlighter: pygments`, change it to `highlighter: rouge` and the warning will be gone.
+
+
+## Boilerplate (beta)
+
+Want to clone a boilerplate instead of my buzz blog? Here comes this!  
+
+```
+$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
+```
+
+**[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
+
+
+## Translation
+
+ - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: 感谢 [@BrucZhaoR](https://github.com/BruceZhaoR) 的 [中文翻译 &rarr;](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
 
 ## Features
 
+##### New Feature (V1.5.2)
+
+- Annoyed to delete my blog post after clone or pull? **Boilerplate** comes to help you get started quickly and easily merge update.
+- `-apple-system` is added in font rule, which display beautiful new font **San Francisco** in iOS 9 by default.
+- Fixed [issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15) about code wrap.
+
+##### New Feature (V1.5.1)
+
+- **[Comment](#comment)** support [**Disqus**](http://disqus.com) officially, thanks to @rpsh.
 
 ##### New Feature (V1.5)
 
@@ -47,16 +81,15 @@
 - **Typographic optimization** for Chinese Fonts
 - **Network optimizaition** for China, dropping Google webfont, using local CDN
 - Using [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
-- Using Baidu, Tencent/QQ analytics *(TODO: support GA)*
+- Using Baidu, Tencent/QQ analytics
 - Using [DuoShuo](http://duoshuo.com/) as the Disqus-like third party discussion system
 
 
 ## Support
 
-- **Feel free to fork. I'll Appreciate it if you keep the Author & Github link footer**
+- **Feel free to fork. I'll Appreciate it if you keep the Author & Github link at footer**
 - Give it a **Star** if you like, fork or just clone to use ;)
 - If any problem or requirement, just open an issue here and I will help you.
-- 如果有需要，我可以更新一篇中文文档 ;)
 
 
 ## Document
@@ -73,7 +106,7 @@
 	* [Keynote Layout](#keynote-layout)
 * Comment & Analysis
 	* [Comment](#comment)
-	* [Analytics](#analytics) 
+	* [Analytics](#analytics)
 * Advanced
 	* [Customization](#customization)
 	* [Header Image](#header-image)
@@ -206,21 +239,22 @@ The iframe will be automatically resized to adapt different form factors also th
 
 #### Comment
 
-This theme is using [DuoShuo](http://duoshuo.com) as the Disqus-like third party discussion system seeing the network issue, if you wanna switch to Disqus and feel difficult to do that, please let me know and I will support it officially.
+This theme support both [Disqus](http://disqus.com) and [Duoshuo](http://duoshuo.com) as the third party discussion system.
 
-First, you need to sign up and get your own duoshuo account. **Repeat, DO NOT use mine!** (maybe I will clean it up someday!)   
-It is deathly simple to sign up and you will get the full power of duoshuo management system. Please give it a try!
+First, you need to sign up and get your own account. **Repeat, DO NOT use mine!** (I have set Trusted Domains) It is deathly simple to sign up and you will get the full power of management system. Please give it a try!
 
-Second, from V1.5, you can easily complete your comment configuration by just adding your **duoshuo short name** *(the second-level domain of your duoshuo account which is unique)* into `_config.yml`:
+Second, from V1.5, you can easily complete your comment configuration by just adding your **short name** into `_config.yml`:
 
 ```
-duoshuo_username: huxblog		# write down your own
+duoshuo_username: _your_duoshuo_short_name_
+# OR
+disqus_username: _your_disqus_short_name_
 ```
 
-**To the old version user**, it's better that you pull the new version, otherwise you have to replace code in `post.html`, `keynote.html` and `about.html`
+**To the old version user**, it's better that you pull the new version, otherwise you have to replace code in `post.html`, `keynote.html` and `about.html` by yourselves.
 
-Furthermore, if you only wanna use comment without sharing, you can set `duoshuo_share: false`.   
-Disabling the whole thing is also easy, and just comment out the code.
+Furthermore, Duoshuo support Sharing. if you only wanna use Duoshuo comment without sharing, you can set `duoshuo_share: false`. You can use Duoshuo Sharing and Disqus Comments together also.
+
 
 
 #### Analytics

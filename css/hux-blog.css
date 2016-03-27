@@ -39,14 +39,95 @@
   width: 80%;
   display: block;
   border-radius: 5px;
-   margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .sidebar-container .short-about p {
-  margin: 20px 0;
+  margin-top: 0px;
   margin-bottom: 20px;
 }
 .sidebar-container .short-about .list-inline > li {
   padding-left: 0px;
+}
+.catalog-container {
+  padding: 0px;
+}
+.side-catalog {
+  display: block;
+  overflow: auto;
+  height: 100%;
+  padding-bottom: 40px;
+  width: 195px;
+}
+.side-catalog.fixed {
+  position: fixed;
+  top: 20px;
+}
+.side-catalog.fold .catalog-toggle::before {
+  content: "+";
+}
+.side-catalog.fold .catalog-body {
+  display: none;
+}
+.side-catalog .catalog-toggle::before {
+  content: "−";
+  position: relative;
+  margin-right: 5px;
+  bottom: 1px;
+}
+.side-catalog .catalog-body {
+  position: relative;
+  list-style: none;
+  height: auto;
+  overflow: hidden;
+  padding-left: 0px;
+  padding-right: 5px;
+  text-indent: 0;
+}
+.side-catalog .catalog-body li {
+  position: relative;
+  list-style: none;
+}
+.side-catalog .catalog-body li a {
+  padding-left: 10px;
+  max-width: 180px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.side-catalog .catalog-body .h1_nav,
+.side-catalog .catalog-body .h2_nav,
+.side-catalog .catalog-body .h3_nav {
+  margin-left: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+.side-catalog .catalog-body .h4_nav,
+.side-catalog .catalog-body .h5_nav,
+.side-catalog .catalog-body .h6_nav {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.side-catalog .catalog-body .h4_nav a,
+.side-catalog .catalog-body .h5_nav a,
+.side-catalog .catalog-body .h6_nav a {
+  max-width: 170px;
+}
+.side-catalog .catalog-body .active {
+  border-radius: 4px;
+  background-color: #F5F5F5;
+}
+.side-catalog .catalog-body .active a {
+  color: #0085a1!important;
+}
+@media (max-width: 1200px) {
+  .side-catalog {
+    display: none;
+  }
 }
 body {
   /* Hux learn from
@@ -54,7 +135,7 @@ body {
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
   font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
-  line-height: 1.8;
+  line-height: 1.7;
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
@@ -143,7 +224,6 @@ pre code {
   width: auto;
   white-space: pre;
   word-wrap: normal;
-  }
 }
 .postlist-container {
   margin-bottom: 15px;
@@ -233,10 +313,10 @@ pre code {
 }
 @media only screen and (max-width: 767px) {
   /**
-   * Layout
-   * Since V1.6 we use absolute positioning to prevent to expand container-fluid
-   * which would cover tags. A absolute positioning make a new layer.
-   */
+	 * Layout
+	 * Since V1.6 we use absolute positioning to prevent to expand container-fluid
+	 * which would cover tags. A absolute positioning make a new layer.
+	 */
   .navbar-default .navbar-collapse {
     position: absolute;
     right: 0;
@@ -248,13 +328,13 @@ pre code {
     width: 170px;
   }
   /**
-   * Animation
-   * HuxBlog-Navbar using genuine Material Design Animation
-   */
+	 * Animation
+	 * HuxBlog-Navbar using genuine Material Design Animation
+	 */
   #huxblog_navbar {
     /**
-     * Sharable code and 'out' function
-     */
+		 * Sharable code and 'out' function
+		 */
     opacity: 0;
     transform: scaleX(0);
     transform-origin: top right;
@@ -263,8 +343,8 @@ pre code {
     -webkit-transform-origin: top right;
     -webkit-transition: all 200ms cubic-bezier(0.47, 0, 0.4, 0.99) 0ms;
     /**
-     *'In' Animation
-     */
+		 *'In' Animation
+		 */
   }
   #huxblog_navbar a {
     font-size: 13px;
