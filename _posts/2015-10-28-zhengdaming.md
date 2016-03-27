@@ -4,6 +4,8 @@ title:      让广告成为新闻的创意路径
 date:       2015-10-28
 author:     "Lee"
 header-img: "img/wenan.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 广告
     - 营销

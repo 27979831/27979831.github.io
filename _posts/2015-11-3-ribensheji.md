@@ -5,6 +5,8 @@ subtitle:   "关于日本禅和设计，我们都想错了。"
 date:       2015-11-3
 author:     "Lee"
 header-img: "img/chan.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - Design
     - Japan

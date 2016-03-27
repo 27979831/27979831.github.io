@@ -4,6 +4,8 @@ title:      对书店的一些想法
 date:       2015-11-29
 author:     "Lee"
 header-img: "img/bookstore.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 随笔
 ---

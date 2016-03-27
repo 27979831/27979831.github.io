@@ -5,6 +5,8 @@ subtitle:   我们请客人坐下来喝杯茶，从不是说请你坐下来试�
 date:       2015-12-21
 author:     "Lee"
 header-img: "img/weireshanqiu.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 品牌
 ---

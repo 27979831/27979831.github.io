@@ -4,6 +4,8 @@ title:      模糊洞察，退一步看海阔天空
 date:       2015-10-28
 author:     "Lee"
 header-img: "img/wenan.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 广告
     - 策略

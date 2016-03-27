@@ -4,6 +4,8 @@ title:      成功的文案，实际上则是好战略的体现
 date:       2015-10-26
 author:     "Lee"
 header-img: "img/20151026wenan.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 文案
     - 战略

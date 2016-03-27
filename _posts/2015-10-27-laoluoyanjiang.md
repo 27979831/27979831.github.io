@@ -4,6 +4,8 @@ title:      如何打造一场罗永浩式的精彩演讲？
 date:       2015-10-27
 author:     "Lee"
 header-img: "img/luoyonghao.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 演讲
     - 方法论

@@ -4,6 +4,8 @@ title:      饮食类文案这样写，既可走心又能走胃！
 date:       2015-10-27
 author:     "Lee"
 header-img: "img/20151027meishi.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 文案
     - 餐饮

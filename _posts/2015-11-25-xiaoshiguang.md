@@ -4,6 +4,8 @@ title:      台湾统一面 小时光面馆 网站/微电影
 date:       2015-11-25 
 author:     "Lee"
 header-img: img/xiaoshiguang.jpg
+header-mask: 0.3
+catalog:    true
 tags:
     - 广告
     - Social

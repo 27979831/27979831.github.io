@@ -4,6 +4,8 @@ title:      高质量的social运营怎么做？
 date:       2015-11-12
 author:     "Lee"
 header-img: "img/socialmedia.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - Social
     - 方法论

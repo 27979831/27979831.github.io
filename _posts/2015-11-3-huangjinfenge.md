@@ -5,6 +5,8 @@ subtitle:   "黄金比例应用在平面布局各个领域中，特别是能够�
 date:       2015-11-3
 author:     "Lee"
 header-img: "img/huangjinfenge.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - Design
 ---

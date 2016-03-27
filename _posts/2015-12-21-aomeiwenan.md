@@ -4,6 +4,8 @@ title:      台湾奥美资深文案人：我如何创作了3亿点击量的《�
 date:       2015-12-21
 author:     "Lee"
 header-img: "img/wenan.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 文案
     - 方法论

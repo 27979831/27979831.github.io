@@ -5,6 +5,8 @@ subtitle:   "“MUJI 不是简约设计，而是虚空概念的代表。” —�
 date:       2015-10-27
 author:     "Lee"
 header-img: "img/yuanyanzai.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - Design
     - Japan

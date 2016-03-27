@@ -4,6 +4,8 @@ title:      如此看文案坚持一年，你的上司定会对你刮目相看
 date:       2015-10-26
 author:     "Lee"
 header-img: "img/wenan.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 文案
     - 方法论

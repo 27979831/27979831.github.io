@@ -4,6 +4,8 @@ title:      追热点的几种常用姿势
 date:       2015-11-24
 author:     "Lee"
 header-img: "img/socialmedia.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - Social
 ---

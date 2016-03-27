@@ -4,6 +4,8 @@ title:      如何做一个欲罢不能的公众号？
 date:       2015-10-26
 author:     "Lee"
 header-img: "img/shenyefachi.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - 微信
     - 运营

@@ -4,6 +4,8 @@ title:      一直在做伪社交战役的你，来看看真Social Campaign怎�
 date:       2015-11-11
 author:     "Lee"
 header-img: "img/socialmedia.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
     - Social
 ---
