@@ -3,12 +3,12 @@ layout:     post
 title:      滴滴市场经理测试
 date:       2016-05-13
 author:     "Lee"
-header-img: "img/post-bg-digital-native.jpg"
+header-img: "img/wenan.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
+    - 广告
     - 滴滴
-    
 ---
 ### 行业理解
 
