@@ -1,13 +1,42 @@
+---
+layout: page
+description: "一生想做浪漫极客"
+---
 
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+</div>
+<hr>
+{% endfor %}
 
-<html>  
-<head>  
-<meta http-equiv="Content-Language" content="zh-CN">  
-<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">  
-<title>域名隐形跳转代码演示!www.12580sky.com</title>
-<meta name="keywords" content="域名隐形跳转代码演示!www.12580sky.com">
-<meta name="description" content="域名隐形跳转代码演示!www.12580sky.com"></head>  
-<frameset framespacing="0" border="0" rows="0" frameborder="0">  
-<frame name="main" src="http://www.12580sky.com" scrolling="auto" noresize>  
-</frameset>  
-</html>
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
