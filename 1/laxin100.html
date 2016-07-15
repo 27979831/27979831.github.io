@@ -1,0 +1,277 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>奖励规则</title>
+    <style type="text/css">
+    body,html{
+        width: 100%;
+        color: #878686;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .rulePage h1,
+    .rulePage h2 {
+        text-align: center;
+    }
+    
+    .rulePage .ruleStep {
+        text-align: left;
+    }
+    .rulePage .ruleStep img{
+    	height: 42px;
+	    vertical-align: middle;
+	    padding-right: 10px;
+    }
+    
+    .rulePage .cash,
+    .rulePage .orange {
+        color: #fa8919;
+    }
+    
+    dd {
+        margin: 0
+    }
+    
+    ul {
+        padding: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .rulePage dd span {
+        display: inline-block;
+    }
+    
+    span.number {
+        width: 26px;
+        height: 26px;
+        background: #fa8919;
+        text-align: center;
+        color: #fff;
+        border-radius: 50%;
+        line-height: 26px;
+        margin-right: 10px;
+    }
+    
+    span.stepText {
+        width: 85%;
+        vertical-align: top;
+    }
+    
+    .ruleInfo li span.dot {
+    	display: inline-block;
+        font-size: 30px;
+        color: #525252;
+        padding-right: 10px;
+        line-height: 10px;
+    	vertical-align: top;
+    }
+    
+    .ruleInfo p {
+        text-align: center;
+    }
+    
+    .content {
+        padding: 0 5%;
+    }
+    
+    .ruleInfo {
+        background: #f4f4f4;
+        padding: 20px 5% 40px;
+        margin-top: 40px;
+    }
+    
+    .rulePage .footer {
+        text-align: center;
+    }
+    
+    .rulePage .footer img {
+        width: 40%;
+        margin: 40px 0;
+    }
+    dl dt{
+    	text-align: center;
+    }
+    dl dt img{
+    	height: 230px;
+    	margin-bottom: 14px;
+    }
+    span.infoText{
+    	display: inline-block;
+    	width: 94%;
+    	vertical-align: top;
+    }
+    .ruleInfo p{
+    	margin: 0;
+    }
+    </style>
+</head>
+
+<body class="rulePage">
+    <div class="content">
+        <h1><span class="h1line">—</span>奖励规则<span class="h1line">—</span></h1>
+        <h2 class="ruleStep"><img src="https://static.dorado.xiaojukeji.com/images/activity/lineBg.h.png" alt="">活动简介:</h2>
+        <span>即日起 , 分享优惠链接给您的朋友，当他们完成第一次<span class="serviceLine">快车</span>行程后，您将获得<span id="rebate_money1" class="cash">10</span><span class="cash">元现金奖励</span>（在您的余额账号中）或<span class="serviceLine">快车</span>券，您可用于支付车费，现金奖励可以提现。</span>
+        <h2 class="ruleStep"><img src="https://static.dorado.xiaojukeji.com/images/activity/lineBg.h.png" alt="">参与流程:</h2>
+        <dl>
+            <dt><img id='p1'></dt>
+            <dd><span class="number">1</span><span class="stepText">在滴滴出行客户端，点击左上角的“个人中心”</span></dd>
+        </dl>
+        <dl>
+            <dt><img id='p2'></dt>
+            <dd><span class="number">2</span><span class="stepText">进入“推荐有奖”页面，即可获取你的专属推荐链接</span></dd>
+        </dl>
+        <dl>
+            <dt><img id='p3'></dt>
+            <dd><span class="number">3</span><span class="stepText">分享你的专属链接</span></dd>
+        </dl>
+        <dl>
+            <dt><img id='p4'></dt>
+            <dd><span class="number">4</span><span class="stepText">朋友领取你送出的<span id="acquire_money">10</span>元滴滴<span class="serviceLine">快车</span>券</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img id='p5'></dt>
+            <dd><span class="number">5</span><span class="stepText">朋友立即体验滴滴<span class="serviceLine">快车</span>或下载滴滴出行客户端乘<span class="serviceLine">快车</span></span>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img id='p6'></dt>
+            <dd><span class="number">6</span><span class="stepText">每有1位朋友乘车，即可获得<span id="rebate_money2">10</span>元奖励</span>
+            </dd>
+        </dl>
+    </div>
+    <div class="ruleInfo">
+        <h2>活动说明</h2>
+        <ul>
+            <li><span class="dot">.</span><span class="infoText">您的朋友若从未打过滴滴<span class="serviceLine">快车</span>，且从未使用过任何<span class="serviceLine">快车</span>“新客专享”券，若目前账户中无<span class="serviceLine">快车</span>“新客专享”券则可领到您分享的本次活动优惠券，券有效期7天；</span></li>
+            <li><span class="dot">.</span><span class="infoText">您的朋友只要在完成领券行为后7天内第一次使用<span class="serviceLine">快车</span>，且使用本次活动优惠券，则您就可获得返利奖励；返利<span class="serviceLine">快车</span>券实时到账，返利现金最迟48小时充入您的余额账户；</span></li>
+            <li><span class="dot">.</span><span class="infoText">您每日返利次数上限会根据当日的奖池量适时调整；</span></li>
+            <li><span class="dot">.</span><span class="infoText">您若获得<span class="serviceLine">快车</span>券奖励，券有效期为7天；</span></li>
+            <li><span class="dot">.</span><span class="infoText">您若获得现金奖励，可在滴滴出行客户端“个人中心-我的钱包-余额“中查询，余额可用于支付滴滴出行车费或提现，提现需要进行实名认证，实名认证需7个工作日内审核；</span></li>
+            <li><span class="dot">.</span><span class="infoText">拥有相同账户、手机号、微信号、支付账号、设备、银行卡的用户视为同一用户（适用于您及您的朋友），仅对首次完成<span class="serviceLine">快车</span>订单进行返利；</span></li>
+            <li><span class="dot">.</span><span class="infoText">一经发现任何违规套取返利的行为，将不予返利、追回相关余额或者封停账号，且依法追究其法律责任。</span></li>
+        </ul>
+        <p>有任何关于本活动的问题和帮助</p>
+        <p>请联系活动客服<span class="orange">400-000-0999</p>
+	</div>
+	<div class="footer">
+		<img src="https://static.dorado.xiaojukeji.com/images/activity/logo.h.png" alt="">
+	</div>
+    
+<script src="https://static.udache.com/gulfstream/webapp/js/didi.js"></script>
+<script type="text/javascript">
+var Omega = {
+    page: "activityBannerPage",
+    debugMode: false
+};
+</script>
+<script src="https://webapp.didistatic.com/static/webapp/shield/z/omega/omega/0.1.4/omega.min.js"></script>
+<script>
+    Omega.setProduct('HoneyComb');
+    Omega.markTimePoint('hc_activity_StaticRes');
+    (function() {
+        //取activity image
+        var img = {
+            //activity_img:'http://static.dorado.xiaojukeji.com/images/honeyv2/activityinfo_513.h.jpg',
+            rebate_amount: '10',
+            acquire_amount: '10',
+            product_line: '快车'
+        };
+        var imgs_k={
+        	p1:'https://static.dorado.xiaojukeji.com/images/activity/page1.h.png',
+        	p2:'https://static.dorado.xiaojukeji.com/images/activity/page2.h.png',
+        	p3:'https://static.dorado.xiaojukeji.com/images/activity/page3.h.png',
+        	p4:'https://static.dorado.xiaojukeji.com/images/activity/page4.h.png',
+        	p5:'https://static.dorado.xiaojukeji.com/images/activity/page5.h.png',
+        	p6:'https://static.dorado.xiaojukeji.com/images/activity/page6.h.png'
+        } 
+        var imgs_c={
+       		p1:'https://static.dorado.xiaojukeji.com/images/activity/pagec1.h.png',
+           	p2:'https://static.dorado.xiaojukeji.com/images/activity/pagec2.h.png',
+           	p3:'https://static.dorado.xiaojukeji.com/images/activity/pagec3.h.png',
+           	p4:'https://static.dorado.xiaojukeji.com/images/activity/pagec4.h.png',
+           	p5:'https://static.dorado.xiaojukeji.com/images/activity/pagec5.h.png',
+           	p6:'https://static.dorado.xiaojukeji.com/images/activity/pagec6.h.png'	
+        }
+        var a = function() {
+            /* if(img.activity_img!='')
+            	$('#activity_img').attr('src',img.activity_img); */
+            $('#rebate_money1').text(img.rebate_amount);
+            $('#rebate_money2').text(img.rebate_amount);
+            $('#acquire_money').text(img.acquire_amount);
+            $('.serviceLine').html(img.product_line);
+            var imglist={};
+            if(img.product_line=='出租车')
+            	imglist = imgs_c;
+            else
+            	imglist=imgs_k;
+            $('#p1').attr('src',imglist.p1);
+            $('#p2').attr('src',imglist.p2);
+            $('#p3').attr('src',imglist.p3);
+            $('#p4').attr('src',imglist.p4);
+            $('#p5').attr('src',imglist.p5);
+            $('#p6').attr('src',imglist.p6);
+            $('.page').css('visibility', 'initial');
+            Omega.markTimePoint('hc_activity_display');
+            setTimeout(function() {
+                Omega.trackPerformance();
+            }, 1000);
+        };
+
+        function getParams(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", 'i'); //构造一个含有目标参数的正则表达式对象
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]);
+            return null; //返回参数值
+        }
+        var p = {
+            group: '3',
+            activity_id: getParams('a'),
+            b: getParams('b') || '',
+            c: getParams('c') || '',
+            cityid: getParams('cityid') || '',
+            recommend_mobile: getParams('m') || ''
+        }
+        var ajaxUrls = {
+            getStaticRes: '/api/recommend/getStaticRes',
+            testGet: 'data/activityConfig.json'
+        };
+        $.ajax({
+            url: ajaxUrls.getStaticRes,
+            data: p,
+            timeout: 15000,
+            success: function(data) {
+                Omega.trackEvent('mart_p_x_ajax_success', {
+                    "url": ajaxUrls.getStaticRes,
+                    "code": data.ret.code
+                });
+                if (data.ret.code == 0) {
+                    data.data && typeof data.data == 'string' && (data.data = JSON.parse(data.data));
+                    $.extend(img, data.data);
+                }
+                a();
+            },
+            error: function(xhr, msg) {
+                Omega.trackEvent('mart_p_x_ajax_error', {
+                    "url": ajaxUrls.getStaticRes,
+                    "msg": msg
+                });
+                a();
+            }
+        });
+
+    })();
+</script>
+</body>
+
+</html>
