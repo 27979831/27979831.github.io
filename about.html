@@ -1,0 +1,128 @@
+---
+layout: page
+title: "About"
+description: "Hey, this is Francis."
+header-img: "img/about-bg.jpg"
+---
+
+
+
+
+
+<!-- Language Selector -->
+
+<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese</option>
+    <option value="1"> 英语 English </option>
+</select>
+<section>
+<!--  Chinese Version -->
+<div class="zh">
+    <blockquote>
+       
+        世界那么大，多玩玩看看。
+    </blockquote>
+
+    <p>这丫不是个好人！ </p>
+
+   <!-- <p>广告人兼营销人兼产品狗，热衷于 Web & Mobile 产品，也喜欢美好的文案和设计，<a href="http://www.zhihu.com/people/ying-xiong-zhong-gui-cao-mang">知乎</a>用户。严重职业病，没事想想用户痛点、行业趋势、商业模式，无论身处什么职位都很在乎产品本身</p>
+
+    <p>没事泡泡社交网络，刷刷微博知乎</p> -->
+	
+	<p>创过几次业，都黄了。</p>
+	<p>泡过几个妞，都散了。</p>
+	<p>赚过几个钱，都没了。</p>
+	<p>写过几篇文案，做过几个平面，都被朋友白拿了。</p>
+
+    <p>哦对了，我叫<b>李超源</b>。
+
+    <hr>
+    <p>如果有幸你可以关注我的微信：</p>
+    <p>个人微信号：<b>27979831</b></p>
+	<p>微信订阅号：<b>i-lcy1989</b></p>
+	<img width="140"  src="http://7xnqez.com1.z0.glb.clouddn.com/wechat-qr.jpg" />
+    <br>
+    一些期待成为的角色:
+    <ul>
+        <li> Copywriter </li>
+        <li> Designer </li>
+        <li> Social Marketing and advertising people </li>
+        <li> End to End Free professional</li>
+        
+    </ul>
+</div>
+
+<!-- English Version -->
+<div class="en">
+    <blockquote>
+        Designer or Copywriter, things in between.
+    </blockquote>
+
+    <p>This guy is son of a bitch!!!</p>
+
+    <p>My Chinese name is <b>Lee Chaoyuan</b>, you can call me English name <b>Francis</b> for short.</p>
+
+    <hr>
+    Interested in more details? Just checkout my wechat:
+    <p>wechat：<b>27979831</b></p>
+
+    My dream position include:
+    <ul>
+        <li> Copywriter </li>
+        <li> Designer </li>
+        <li> Social Marketing and advertising people </li>
+        <li> End to End Free professional</li>
+    </ul>
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    function onLanChange(index){
+        if(index == 0){
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }else{
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        }
+    }
+    onLanChange(0);
+</script>
+
+
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<!--
+    <div class="comment">
+        <div class="ds-thread"
+        data-thread-key="{{site.duoshuo_username}}/about"
+        data-title="{{page.title}}"
+        data-url="{{site.url}}/about/"></div>
+    </div>
+<!-- 多说评论框 end -->
+
+<!-- Duoshuo hacking -->
+<!--
+<input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<!--
+<script type="text/javascript">
+    // dynamic User hacking by Hux
+    var _user = document.getElementById('dsUser').value;
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
