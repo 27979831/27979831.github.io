@@ -40,9 +40,9 @@ kramdown:
 
 
 # Duoshuo settings
-duoshuo_username: francisblog
+#duoshuo_username: francisblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
@@ -77,10 +77,10 @@ friends: [
   },{
         title: "枳",
         href: "http://fiona23.github.io/"
-    }#,{
-#        title: "SmdCn's Blog",
-#        href: "http://blog.smdcn.net"
-#    },{
+    },{
+        title: "知识星球精选站",
+        href: "http://www.zsxq100.com/"
+    },{
 #        title: "解旻的博客",
 #        href: "http://xieminis.me/"
 #    }
