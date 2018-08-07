@@ -80,8 +80,5 @@ friends: [
     },{
         title: "知识星球精选站",
         href: "http://www.zsxq100.com/"
-    },{
-#        title: "解旻的博客",
-#        href: "http://xieminis.me/"
-#    }
+    }
 ]
